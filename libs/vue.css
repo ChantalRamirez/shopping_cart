@@ -1,0 +1,30 @@
+/* CreatedApp  #app */
+.container_form{
+    display: flex;
+}
+.element{
+    width: 50%; 
+    margin-right: 10px;
+}
+.line{
+    border-top: 1px solid #6c757dd6; 
+    margin-bottom: 0px;
+}
+.delete{
+    margin-top: 20px;
+    margin-left:80%;
+}
+.floatright{
+    float: right;
+    font-size:medium;
+    font-weight: bold;
+}
+.display-center{
+    display: flex;
+    align-items: center;
+}
+.image_product{
+    width: 150px;
+    height: 150px;
+}
+
