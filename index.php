@@ -1,7 +1,7 @@
 
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<link rel="stylesheet" href="libs/vue.css">
+<link rel="stylesheet" href="vue.css">
 
 
 <section class="container" id="product_list" >
@@ -50,7 +50,7 @@
   
   </div>
 </section>
-<script src="libs/js/vue.js"></script>
+<script src="vue.js"></script>
 
 
 
