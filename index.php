@@ -5,7 +5,7 @@
 
 
 <section class="container" id="product_list" >
-  <div class="floatright " style="position:relative">
+  <div class="floatright position-relative" >
       <div class="mb-4" >
         <span class="font-weight-bold bg-white" style="margin-right:10px;">{{currency(cartTotal)}}</span>
         <button @click="displayCart = !displayCart" class="btn btn-success btn-sm ml-3" id="cartDropdown" aria-haspopup="true" aria-expanded="false">
@@ -13,7 +13,7 @@
           {{cart.length}}
         </button>
       </div>
-      <div v-if="displayCart" class="list-group" aria-labelledby="cartDropdown" style="position:absolute;top: 30px;right: 0; width:300px; z-index:100;">
+      <div v-if="displayCart" class="list-group position-absolute" aria-labelledby="cartDropdown" style="top: 30px;right: 0; width:300px; z-index:100;">
         <div v-for="(item, index) in cart" :key="index" class="list-group-item " style="display:flex;">
           <div style="margin-right: 10px;">{{item.name}} </div>
           <div class="ml-3 font-weight-bold">{{currency(item.price)}}</div>
