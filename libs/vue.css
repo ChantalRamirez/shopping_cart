@@ -24,7 +24,16 @@
     align-items: center;
 }
 .image_product{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
 }
+.showLabels{
+    display: flex;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+.span-showLabels{
+    margin-left: 5px;
+}
+
 
